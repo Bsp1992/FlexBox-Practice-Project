@@ -1,0 +1,44 @@
+.flexbox-container{
+    display: flex;
+    background-color: blue;
+
+}
+
+.it{
+    text-align:center;
+    border-style:groove;
+
+}
+.flexbox-item{
+    margin:20px;
+    padding:30px;
+    border:solid
+}
+
+.one{
+    flex-direction: row;
+    background-color: rgb(rgb(216, 130, 130), rgb(51, 77, 51), blue);
+    padding: 2;
+    flex-grow: 1;
+}
+
+.two{
+    flex-direction: row;
+    background-color: green;
+    justify-content: center;
+    padding: 20;
+    flex-grow:1;
+}
+
+.three{
+    flex-direction:row;
+    background-color: brown;
+    flex-grow:1;
+}
+
+.fo{
+    border-style:double;
+    text-align: center;
+    text-decoration-line: underline;
+    
+}
